@@ -73,6 +73,7 @@ NOTE: This notebook does not require any GPU resources to execute.
 REFERENCES:
 - https://huggingface.co/datasets/imdb
 - https://radimrehurek.com/gensim/models/doc2vec.html
+- Le, Q.V., & Mikolov, T. (2014). Distributed Representations of Sentences and Documents. ArXiv, abs/1405.4053.
 - https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
 - https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
 - https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html

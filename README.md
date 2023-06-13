@@ -35,3 +35,36 @@ REFERENCES:
 - https://huggingface.co/docs/transformers/training
 - https://huggingface.co/datasets/imdb
 
+
+
+## DOC2VEC + ML MODEL PIPELINES CODE EXPLANATION:
+### nlp_backdoor_doc2vec_ML_models.ipynb
+
+Method: create and inject bias enhancing trigger pattern into train data
+
+Strategy: claim the label of backdoor samples
+
+Goal: leverage at test time by presenting trigger pattern
+
+In this notebook, you will:
+- Import the required packages
+- Load the IMDB dataset
+- Exploratory Data Analysis
+- Inject poisoned samples into training dataset (Performing the bias-enhancing backdoor attack)
+- Hyperparameter tuning of the Doc2Vec Model
+- TaggedDocument Preproccesing for Doc2Vec
+- Healthy classification accuracies of Logistic Regression, Naive Bayes, Decision Tree, and Random Forest
+- Classification accuracies and BBSR outcomes of Logistic Regression, Naive Bayes, Decision Tree, and Random Forest under Word-Level Backdoor Attack with poison rate of 0.1
+- Classification accuracies and BBSR outcomes of Logistic Regression, Naive Bayes, Decision Tree, and Random Forest under Word-Level Backdoor Attack with poison rate of 0.3
+- Classification accuracies and BBSR outcomes of Logistic Regression, Naive Bayes, Decision Tree, and Random Forest under Sentence-Level Backdoor Attack with poison rate of 0.1
+- Classification accuracies and BBSR outcomes of Logistic Regression, Naive Bayes, Decision Tree, and Random Forest under Sentence-Level Backdoor Attack with poison rate of 0.3
+
+NOTE: This notebook does not require any GPU resources to execute.
+
+REFERENCES:
+- https://huggingface.co/datasets/imdb
+- https://radimrehurek.com/gensim/models/doc2vec.html
+- https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+- https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
+- https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html
+- https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html

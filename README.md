@@ -6,6 +6,10 @@ The robustness of NLP models has been under investigation by researchers, encomp
 ## BERT AND ROBERTA BASED PIPELINES CODE EXPLANATION:
 ### nlp_backdoor_transformer_models.ipynb
 
+![pipeline3_tr](https://github.com/aatabek/nlp-security/assets/45209959/c4475c68-d8f2-42bf-9401-0691916cfdfd)
+
+![pipeline4_tr](https://github.com/aatabek/nlp-security/assets/45209959/5dee5a0a-c851-416c-8f74-8ada250e043a)
+
 Method: create and inject bias enhancing trigger pattern into train data
 
 Strategy: claim the label of backdoor samples
@@ -39,6 +43,11 @@ REFERENCES:
 
 ## DOC2VEC + ML MODEL PIPELINES CODE EXPLANATION:
 ### nlp_backdoor_doc2vec_ML_models.ipynb
+
+![pipeline1_dv](https://github.com/aatabek/nlp-security/assets/45209959/1d7bdf9f-4fbf-4f7e-acb1-298844e2847a)
+
+![pipeline2_dv](https://github.com/aatabek/nlp-security/assets/45209959/e4d7cbac-16f1-4076-b118-c2dde11d404d)
+
 
 Method: create and inject bias enhancing trigger pattern into train data
 
